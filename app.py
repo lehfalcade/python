@@ -66,6 +66,14 @@ while i < 5;
 # Loop for com acesso ao índice e elemento simultaneamente usando enumerante
 print("Elementos da lista com seus índices:")
 my_list = [1, 2, 3, 4, 5]
+for indice, elemento in enumerate(my_list):
+    print(f"Índice {indice}: {elemento}")
+
+
+
+
+
+
 
 #python
 # Importa o módulo random para seleção aleatória de palavras
@@ -135,6 +143,8 @@ def jogo_da_forca():
 # Inicia o jogo quando o script é executado
 if _name_ == "_main_":
     jogo_da_forca()
+
+
 
 #python
 # Jogo da Velha (Tic Tac Toe) em python
